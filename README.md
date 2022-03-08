@@ -5,11 +5,10 @@
 - Maven.
 
 ## Installation steps:
-- With your IDE open a new Maven project by selecting pom.xml file.
+- Open the Maven project in your IDE.
 - Set Blazemeter credentials in the BzmConfig file.
-- From project folder in terminal run `mvn clean test` to run tests.
+- From project folder in terminal run `mvn clean test` to start tests.
 
 ## Additional info:
 - By default, all the scenarios across feature files run in 10 parallel threads.
 - You can change the number of parallel threads in pom.xml by changing value for the `dataproviderthreadcount` property.
-
